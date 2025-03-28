@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'WorkSans-Regular';
+    font-display: auto;
+    src: url('../fonts/WorkSans-Regular.ttf') format('truetype');
+    font-weight: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-bold';
+    font-display: swap;
+    src: url('../fonts/WorkSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    font-display: swap;
+    src: url('../fonts/WorkSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0%;
+    font-family: WorkSans-Regular, Helvetica Neue, sans-serif;
+    background-color: #eee;
+    color: #666666;
+    padding-top: 0;
+}
+
+.brand-logo {
+    max-height: 80px;
+}
+
+.page-title {
+    margin: 24px 00 0;
+    font-size: 24px;
+    color: #6a6a6a;
+}
+
+ 
+.division-layout {
+    height: 100vh;
+}
+
+.divisions-list-box {
+    margin-top: 8px;
+}
+
+.division-section {
+    margin: 15px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 85%;
+    max-width: 100%;
+}
+
+
+.page-outer {
+    width: 100%;
+    background-size: contain;
+    background-repeat: round;
+    margin: 0;
+    background-color: #FFF;
+}
+
+
+.division-layout-box {
+    background: #FFF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.division-link {
+    text-decoration: none;
+}
+
+.division-card {
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12px;
+    border: 1px solid #e2e2e2;
+    margin: 20px;
+    box-shadow: 0 4px 14px #0000001f;
+    &:hover {
+        cursor: pointer;
+        .division-name {
+            /* color: #00b2ad; */
+            font-family: WorkSans-semibold, Helvetica Neue, sans-serif;
+        }
+        .division-logo {
+            transform: rotate(-5deg);
+            transition: transform .5s ease-in-out;
+        }
+        .division-arrow {
+            display: block;
+        }
+    }
+}
+
+.card-backdrop-1 {
+    background: linear-gradient(144deg, #98ccee, #e9e9e9, #cccccc);
+}
+
+.card-backdrop-2 {
+    background: linear-gradient(144deg, #e5c799, #ffffff, #fff2de);
+}
+
+.card-backdrop-3 {
+    background: linear-gradient(114deg, #b8bdbb, #ffffff, #c6aa8540);
+}
+
+.card-backdrop-4 {
+    background: linear-gradient(114deg, #b8bdbb, #ffe2b8, #ddc37d);
+}
+
+.card-backdrop-5 {
+    background: linear-gradient(114deg, #69b7eb, #fffbd5, #ffee5c);
+}
+
+.division-logo {
+    width: 40%;
+}
+
+.division-name {
+    font-size: 16px;
+    color: #000;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    line-height: 30px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.division-arrow {
+    width: 24px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+.powered-by-rapl-outer {
+    margin-top: 10px;
+}
+
+.terms-privacy-outer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.terms-privacy-outer a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.terms-privacy-outer a:hover {
+    color: #0751c0;
+    text-decoration: none;
+}
+
+.ps-1 {
+    padding-left: 0.25rem !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.mb-3 {
+    margin-bottom: 17px;
+}
+
+.ps-0 {
+    padding-left: 0 !important;
+}
+
+.pe-0 {
+    padding-right: 0 !important;
+}
+
+.pe-1 {
+    padding-right: 0.25rem;
+}
+
+.my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.powered-by {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.powered-by-rapl-outer h6 {
+    font-size: 16px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.rapl-logo {
+    width: auto !important;
+    margin-left: 0.5rem;
+    margin-top: 2px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-lg-block {
+    display: block !important;
+}
+
+ 
+
+
+@media (min-width: 1400px) {
+    .d-xl-block {
+        display: block !important;
+    }
+
+    .col-xl-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .col-xl-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-xl-4 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+
+    .col-xl-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-xl-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .login-info-outer {
+        margin: 36px 0 20px !important;
+    }
+
+    .division-name {
+        font-size: 22px !important;
+    }
+
+    .divisions-outer-box {
+        width: 470px;
+        margin: auto;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 16.66666667%;
+    }
+
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .division-name {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .brand-logo {
+        margin-top: 8%;
+    }
+
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .division-logo {
+        width: 30%;
+    }
+
+    .division-name {
+        font-size: 30px;
+    }
+    .page-title{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575px) {
+    .brand-logo {
+        margin-top: 8%;
+    }
+    .page-title{
+        font-size: 18px;
+    }
+
+    .division-logo {
+        width: 20%;
+    }
+
+    .division-section {
+        width: 95% !important;
+    }
+
+    .division-name {
+        font-size: 16px;
+        font-family: WorkSans-semibold, Helvetica Neue, sans-serif;
+    }
+
+    .powered-by-rapl-outer {
+        margin-top: 0 !important;
+    }
+
+    .terms-privacy-outer {
+        font-size: 12px !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+}
+
+ 
+ 
+  
+  
+  
+  
