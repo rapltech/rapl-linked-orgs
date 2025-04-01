@@ -41,7 +41,7 @@ body {
     color: #6a6a6a;
 }
 
- 
+
 .division-layout {
     height: 100vh;
 }
@@ -94,16 +94,20 @@ body {
     border: 1px solid #e2e2e2;
     margin: 20px;
     box-shadow: 0 4px 14px #0000001f;
+
     &:hover {
         cursor: pointer;
+
         .division-name {
             /* color: #00b2ad; */
             font-family: WorkSans-semibold, Helvetica Neue, sans-serif;
         }
+
         .division-logo {
             transform: rotate(-5deg);
             transition: transform .5s ease-in-out;
         }
+
         .division-arrow {
             display: block;
         }
@@ -115,19 +119,19 @@ body {
 }
 
 .card-backdrop-2 {
-    background: linear-gradient(144deg, #e5c799, #ffffff, #fff2de);
+    background: linear-gradient(144deg, #e5c799, #ffe597, #fff2de);
 }
 
 .card-backdrop-3 {
-    background: linear-gradient(114deg, #b8bdbb, #ffffff, #c6aa8540);
+    background: linear-gradient(114deg, #b8bdbb, #ffede6, #c6aa8540);
 }
 
 .card-backdrop-4 {
-    background: linear-gradient(114deg, #b8bdbb, #ffe2b8, #ddc37d);
+    background: linear-gradient(114deg, #b8bdbb, #ffe2b8, #ffe49a);
 }
 
 .card-backdrop-5 {
-    background: linear-gradient(114deg, #69b7eb, #fffbd5, #ffee5c);
+    background: linear-gradient(114deg, #8fb0c7, #fffbd5, #ffee5ca1);
 }
 
 .division-logo {
@@ -245,7 +249,7 @@ body {
     display: block !important;
 }
 
- 
+
 
 
 @media (min-width: 1400px) {
@@ -291,6 +295,10 @@ body {
         margin: auto;
     }
 
+    .offset-xl-2 {
+        margin-left: 16.66666667%;
+    }
+
 }
 
 
@@ -320,6 +328,10 @@ body {
         width: 66.66666667%;
     }
 
+    .offset-lg-2 {
+        margin-left: 16.66666667%;
+    }
+
     .division-name {
         font-size: 18px;
     }
@@ -339,12 +351,23 @@ body {
     .division-logo {
         width: 30%;
     }
+    .page-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .division-card {
+        margin: 10px;
+        border-radius: 10px;
+    }
 
     .division-name {
         font-size: 30px;
     }
-    .page-title{
-        font-size: 28px;
+
+   
+    .footer {
+        margin-top: 10px;
     }
 }
 
@@ -352,8 +375,10 @@ body {
     .brand-logo {
         margin-top: 8%;
     }
-    .page-title{
-        font-size: 18px;
+
+    .page-title {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .division-logo {
@@ -362,6 +387,11 @@ body {
 
     .division-section {
         width: 95% !important;
+    }
+
+    .division-card {
+        margin: 10px;
+        border-radius: 10px;
     }
 
     .division-name {
@@ -378,11 +408,8 @@ body {
         text-align: center !important;
         margin-top: 20px !important;
     }
-}
 
- 
- 
-  
-  
-  
-  
+    .footer {
+        margin-top: 10px;
+    }
+}
