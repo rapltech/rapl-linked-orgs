@@ -115,7 +115,7 @@ body {
 }
 
 .card-backdrop-1 {
-    background: linear-gradient(144deg, #98ccee, #e9e9e9, #cccccc);
+    background: linear-gradient(144deg, #f4d3b5, #ffdfcb, #c1b6b0);
 }
 
 .card-backdrop-2 {
@@ -123,11 +123,11 @@ body {
 }
 
 .card-backdrop-3 {
-    background: linear-gradient(114deg, #b8bdbb, #ffede6, #c6aa8540);
+    background: linear-gradient(114deg, #b4b4b4, #d4e7ef, #d4e7ef);
 }
 
 .card-backdrop-4 {
-    background: linear-gradient(114deg, #b8bdbb, #ffe2b8, #dfb7b2);
+    background: linear-gradient(114deg, #b8bdbb, #ffe2b8, #ffe2b8);
 }
 
 .card-backdrop-5 {
