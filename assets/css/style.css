@@ -134,6 +134,10 @@ body {
     background: linear-gradient(114deg, #8fb0c7, #fffbd5, #ffee5ca1);
 }
 
+.card-backdrop-6 {
+    background: linear-gradient(114deg, #c2bcb1 , #ffeccc);
+}
+
 .division-logo {
     width: 40%;
 }
